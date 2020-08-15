@@ -63,8 +63,8 @@ Q10 American Express 4.2*/
 
 /*SELECT COUNT(DISTINCT title)
 FROM data_analyst_jobs
-WHERE title LIKE '%Analyst%'; 
-Q11 754 different titles */
+WHERE title ILIKE '%Analyst%'; 
+Q11 774 different titles */
 
 /*SELECT DISTINCT title
 FROM data_analyst_jobs
@@ -72,4 +72,4 @@ WHERE title NOT IN
 	(SELECT title
 	 FROM data_analyst_jobs
 	 WHERE title ILIKE '%Analyst%' OR title ILIKE '%Analytics%'); 
- Q12 4, and they all contain "Tableau"
+ Q12 4, and they all contain "Tableau"*/
