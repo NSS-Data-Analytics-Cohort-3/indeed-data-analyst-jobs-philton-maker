@@ -66,6 +66,8 @@ FROM data_analyst_jobs
 WHERE title ILIKE '%Analyst%'; 
 Q11 774 different titles */
 
+/* GIT TEST TEXT*/
+
 /*SELECT DISTINCT title
 FROM data_analyst_jobs
 WHERE title NOT IN
